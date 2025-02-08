@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(188, 182, 216), rgb(255, 255, 255));
+    /* background-image: url("/PageTwo.png");
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.underdiv{
+    /* background: linear-gradient( rgb(255, 255, 255),rgb(206, 204, 218)); */
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    height: 150%;
+    width:100vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+
+}
+.heading{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: rgb(9, 10, 39);
+    font-weight: bolder;
+    background-color: rgb(3, 3, 40);
+    color: rgb(255, 255, 255);
+    padding: 30px; 
+    width: 100%;
+   }
+   
+.form{
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: column;
+ margin-top: 20px;
+ width: 90%;
+ gap: 10px;
+ font-weight:500;
+ color: rgb(10, 4, 43);
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+}
+
+textarea{
+    height:100%;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.box4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.box5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    }
+
+
+  
+.container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    height: 100%;
+    width:100vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: 30px;
+    gap: 10px;
+}
+
+.heading2{
+    background-color: rgb(3, 3, 40);
+    color: rgb(255, 255, 255);
+    padding: 30px; 
+    width: 100%;
+}
+.heading h1{
+    font-size: 36px;
+    margin: 0;
+}
+.heading p{
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+.section{
+     padding: 0 30px 30px 30px ;
+      display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px;
+    
+}
+
+.skills ul{
+    margin-top: 7px;
+}
+
+.button{
+    background-color: rgb(9, 10, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    
+}
+/* 
+.skills li{
+    background-color: rgb(3, 3, 40);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px 10px 5px 0; 
+
+} */
+ .buttondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+
+
+
+
+/*  */
+
+/* Resume Container Styling */
+#resumeOutput {
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: 40px auto; /* Centering the resume */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: "Arial", sans-serif;
+}
+
+/* Header Styling */
+#resumeOutput h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Section Titles */
+#resumeOutput h3 {
+    font-size: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+/* Resume Content */
+#resumeOutput p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+/* Make Labels Bold */
+#resumeOutput strong {
+    font-weight: bold;
+}
+
+/* Buttons */
+#resumeOutput button {
+    width: 100%;
+    padding: 10px;
+    background: #0a0a23;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#resumeOutput button:hover {
+    background: #13136b;
+}
+
+/* Background Fix */
+body {
+    background: linear-gradient(to bottom, #f8f8ff, #c2b7d3);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Tumhara existing CSS yahan hai */
+
+/* Resume ko aur professional aur polished banane ke liye updates */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    background: linear-gradient(135deg, #4A90E2, #007AFF);
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    background: #007AFF;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.section p {
+    margin: 10px 0;
+}
+
+/* Skill & Experience Section */
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 4px solid #007AFF;
+}
+
+/* Buttons for Download & Share */
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#generate-btn{
+    background: rgb(9, 10, 39);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .resume-container {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,198 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rsume builder</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+  
+    <div class="underdiv ">
+      <h1 class="heading">Create Your Resume</h1>
+      <form class="form">
+        <div class="box1">
+          <label for="name">Name:</label>
+          <input
+            class="name"
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your name"
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <label for="aboutyourself">About your self:</label>
+        <textarea
+          type="text"
+          id="aboutyourself"
+          required
+          placeholder="Enter about your self"
+        ></textarea>
+
+        <div class="box2">
+          <label for="company">Company/position:</label>
+          <input
+            type="name"
+            id="aboutyourself"
+            required
+            placeholder="Enter your company/position"
+          />
+        </div>
+
+        <div class="box3">
+          <label for="company">Join:</label>
+          <input type="date" />
+
+          <label for="company">End:</label>
+          <input type="date" />
+        </div>
+
+        <label for="experience">Your Experience:</label>
+        <textarea
+          type="text"
+          id="aboutyourself"
+          required
+          placeholder="Enter your experience"
+        ></textarea>
+
+        <div class="box4">
+          <label for="education">Edu:</label>
+          <input
+            type="name"
+            id="education"
+            required
+            placeholder="Enter your education"
+          />
+
+          <label for="education">Join:</label>
+          <input type="date" />
+
+          <label for="education">End:</label>
+          <input type="date" />
+        </div>
+        <div class="box5">
+          <label for="language">Languages:</label>
+          <input
+            type="text"
+            id="language"
+            required
+            placeholder="Enter your Languages"
+          />
+
+          <label for="skills">Skills:</label>
+          <input
+            type="text"
+            id="skills"
+            required
+            placeholder="Enter your skills"
+          />
+      
+
+        </div>
+        <div class="buttondiv">
+          <button type="button" class="button">Generate Resume</button>
+        </div>
+
+      </form>
+    </div>
+    
+
+
+    
+
+
+    <script src="main.js"></script>
+  
+  </body>
+
+</html> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="underdiv">
+    <h1 class="heading">Create Your Resume</h1>
+    <form class="form">
+      <div class="box1">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required placeholder="Enter your name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="Enter your email" />
+      </div>
+
+      <label for="about">About yourself:</label>
+      <textarea id="about" required placeholder="Enter about yourself"></textarea>
+
+      <div class="box2">
+        <label for="company">Company/Position:</label>
+        <input type="text" id="company" required placeholder="Enter your company/position" />
+      </div>
+
+      <div class="box3">
+        <label for="joinDate">Join:</label>
+        <input type="date" id="joinDate" />
+
+        <label for="endDate">End:</label>
+        <input type="date" id="endDate" />
+      </div>
+
+      <label for="experience">Your Experience:</label>
+      <textarea id="experience" required placeholder="Enter your experience"></textarea>
+
+      <div class="box4">
+        <label for="education">Education:</label>
+        <input type="text" id="education" required placeholder="Enter your education" />
+
+        <label for="eduJoin">Join:</label>
+        <input type="date" id="eduJoin" />
+
+        <label for="eduEnd">End:</label>
+        <input type="date" id="eduEnd" />
+      </div>
+
+      <div class="box5">
+        <label for="languages">Languages:</label>
+        <input type="text" id="languages" required placeholder="Enter your languages" />
+
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills" required placeholder="Enter your skills" />
+      </div>
+
+      <div class="buttondiv">
+        <button id="generate-btn">Generate Resume</button>
+
+      </div>
+    </form>
+    <div id="resumeOutput"></div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  
+  <script src="main.js"defer></script>
+</body>
+</html>
