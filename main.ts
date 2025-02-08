@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p><strong>End Date:</strong> ${endDate}</p>
 
             <p><strong>Experience:</strong> ${experience}</p>
-               <p><strong>Education:</strong> ${education}/p>
+               <p><strong>Education:</strong> ${education}</p>
                  <p><strong>Education Join Date:</strong> ${eduJoin}</p>
             <p><strong>Education End Date:</strong> ${eduEnd}</p>
            
