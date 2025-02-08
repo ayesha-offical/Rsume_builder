@@ -56,19 +56,28 @@ document.addEventListener("DOMContentLoaded", function () {
         // Get all form values
         var name = document.querySelector("#name").value;
         var email = document.querySelector("#email").value;
-        var about = document.querySelector("#about").value;
-        var Company = document.querySelector("#company").value;
-        var joinDate = document.querySelector("#joinDate").value;
-        var endDate = document.querySelector("#endDate").value;
+        var about = document.querySelector("#about")
+            .value;
+        var Company = document.querySelector("#company")
+            .value;
+        var joinDate = document.querySelector("#joinDate")
+            .value;
+        var endDate = document.querySelector("#endDate")
+            .value;
         var experience = document.querySelector("#experience").value;
-        var education = document.querySelector("#education").value;
-        var eduJoin = document.querySelector("#eduJoin").value;
-        var eduEnd = document.querySelector("#eduEnd").value;
-        var skills = document.querySelector("#skills").value;
-        var languages = document.querySelector("#languages").value;
+        var education = document.querySelector("#education")
+            .value;
+        var eduJoin = document.querySelector("#eduJoin")
+            .value;
+        var eduEnd = document.querySelector("#eduEnd")
+            .value;
+        var skills = document.querySelector("#skills")
+            .value;
+        var languages = document.querySelector("#languages")
+            .value;
         // Check if all values are being retrieved
         console.log({ name: name, email: email, about: about, experience: experience, skills: skills });
         // Generate Resume Output
-        output.innerHTML = "\n            <h2>".concat(name, "</h2>\n            <p><strong>Email:</strong> ").concat(email, "</p>\n            <p><strong>About:</strong> ").concat(about, "</p>\n                   <p><strong>Company:</strong> ").concat(Company, "</p>\n                    <p><strong>Join Date:</strong> ").concat(joinDate, "</p>\n            <p><strong>End Date:</strong> ").concat(endDate, "</p>\n\n            <p><strong>Experience:</strong> ").concat(experience, "</p>\n               <p><strong>Education:</strong> ").concat(education, "/p>\n                 <p><strong>Education Join Date:</strong> ").concat(eduJoin, "</p>\n            <p><strong>Education End Date:</strong> ").concat(eduEnd, "</p>\n           \n            <p><strong>Skills:</strong> ").concat(skills, "</p>\n         \n            <p><strong>Languages:</strong>").concat(languages, " </p>\n     \n          \n     \n\n        ");
+        output.innerHTML = "\n            <h2>".concat(name, "</h2>\n            <p><strong>Email:</strong>          <br/> ").concat(email, "</p>\n  \n            <p><strong>About:</strong> ").concat(about, "</p>\n                 <h3>Work</h3>\n                  <hr>\n            <p><strong>Company:</strong> ").concat(Company, "</p>\n            <p><strong>Join Date:</strong> ").concat(joinDate, "</p>\n            <p><strong>End Date:</strong> ").concat(endDate, "</p>\n             <h3>Work Experience</h3>\n                  <hr>\n            <p><strong>Experience:</strong> ").concat(experience, "</p>\n             <h3>Education</h3>\n                  <hr>\n            <p><strong>Education:</strong> ").concat(education, "</p>\n            <p><strong>Education Join Date:</strong> ").concat(eduJoin, "</p>\n            <p><strong>Education End Date:</strong> ").concat(eduEnd, "</p>\n             <h3>Skills</h3>\n              <hr>\n            <p><strong>Skills:</strong> ").concat(skills, "</p>\n             <h3>Languages</h3>\n             <hr>\n            <p><strong>Languages:</strong>").concat(languages, " </p>\n     \n          \n     \n\n        ");
     });
 });
